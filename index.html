@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MY CV</title>
+<title>CURRICULUM VITAE</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
 
@@ -16,7 +16,9 @@
   /* Sidebar */
   .sidebar {
     width: 240px;
-    background: blue; /* HELB green */
+    background: url(images/oceanBlue.png); /* HELB green */
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
@@ -80,7 +82,9 @@
   /* Section Styling */
   .section {
     display: none;
-    background: url(images/whitered.png); /*rgb(209, 70, 70);*/
+    background: url(images/whiteB.png); /*rgb(209, 70, 70);*/
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -111,10 +115,20 @@
 
   footer {
     text-align: center;
-    color: #090a5f;
+    color: #cbda07;
     font-size: 18px;
     margin-top: 40px;
     font-family: 'Times New Roman', Times, serif;
+    background: url(images/Dblue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    border-bottom: 7px solid orangered;
+  }
+
+  footer p {
+    padding: 0.5rem;
   }
 
   /* --- RESPONSIVE --- */
@@ -269,7 +283,8 @@
     </div>
 
     <footer>
-      <strong>I am a proficient and professional ICT technician with a vast knowledge in the field of ICT. Flexibility and less supervision are the main characters that I possess in a workplace to meet organizational objectives as well and personal skill development. </strong>.</p> 
+      <p><strong>I am a proficient and professional ICT technician with a vast knowledge in the field of ICT.</strong></p>
+      <p><strong>Flexibility and less supervision are the main characters that I possess in a workplace to meet organizational objectives as well and personal skill development.</strong>.</p>
     </footer>
   </div>
 
